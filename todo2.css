@@ -1,0 +1,19 @@
+section.H {
+background.color: red }
+section.H li {
+color: white}
+
+section.M {
+background.color: orange }
+section.M li {
+color: white}
+
+section.L {
+background.color: gray }
+section.L li {
+color: black}
+
+section.D {
+background.color: black }
+section.D li {
+color: #00ffff}
