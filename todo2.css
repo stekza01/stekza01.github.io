@@ -1,19 +1,19 @@
 section.H ul{
-background.color: red }
+background-color: red }
 section.H li {
 color: white}
 
 section.M ul{
-background.color: orange }
+background-color: orange }
 section.M li {
 color: white}
 
 section.L ul{
-background.color: gray }
+background-color: gray }
 section.L li {
 color: black}
 
 section.D ul{
-background.color: black }
+background-color: black }
 section.D li {
 color: #00ffff}
