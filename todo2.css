@@ -1,19 +1,19 @@
-section.H {
+section.H ul{
 background.color: red }
 section.H li {
 color: white}
 
-section.M {
+section.M ul{
 background.color: orange }
 section.M li {
 color: white}
 
-section.L {
+section.L ul{
 background.color: gray }
 section.L li {
 color: black}
 
-section.D {
+section.D ul{
 background.color: black }
 section.D li {
 color: #00ffff}
