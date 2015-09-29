@@ -5,9 +5,7 @@ header{
   }
   
 Section{
-  position: relative;
-  left: 0;
-  top: 70;
+  margin-top: 100px;
   text-align: center;
   float: left;
   width:50%;
