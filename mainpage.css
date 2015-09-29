@@ -10,6 +10,7 @@ Section{
   top: 70;
   text-align: center;
   float: left;
+  width:50%;
   }
   
 section.left{
@@ -20,5 +21,7 @@ section.right{
   }
   
 footer{
+  position: relative;
+  top:70px;
   clear:both;
   }
