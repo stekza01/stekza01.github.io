@@ -9,13 +9,14 @@ Section{
   left: 0;
   top: 70;
   text-align: center;
+  float: left;
   }
   
 section.left{
-  float:left;
+  background-color:blue;
   }
 section.right{
-  float.right;
+  background-color:silver;
   }
   
 footer{
