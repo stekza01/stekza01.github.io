@@ -3,17 +3,26 @@ background-color: red }
 section.H li {
 color: white}
 
+section.H input {
+color: white}
+
 section.M ul{
 background-color: orange }
 section.M li {
+color: white}
+section.M input {
 color: white}
 
 section.L ul{
 background-color: gray }
 section.L li {
 color: black}
+section.L input {
+color: black}
 
 section.D ul{
 background-color: black }
 section.D li {
+color: #00ffff}
+section.D input {
 color: #00ffff}
