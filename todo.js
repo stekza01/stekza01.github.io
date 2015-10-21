@@ -12,7 +12,7 @@ addtodo = function(){
   
   
   
-  checbox.setAttribute("type", "checkbox");
+  checkbox.setAttribute("type", "checkbox");
   mine.setAttribute("class", mypriority);
   
   btn.appendChild(mine);
