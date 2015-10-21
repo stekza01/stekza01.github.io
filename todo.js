@@ -1,6 +1,6 @@
 
 addtodo = function(){
-  var myp, mysize, mystr, btn, mine;
+  var myp, mysize, mystr, btn, mine, checkbox;
   myp = document.querySelector("#myul");
   mytext = document.querySelector("#mytext");
   mypriority = document.querySelector("#priority").value;
@@ -13,11 +13,13 @@ addtodo = function(){
   
   
   checkbox.setAttribute("type", "checkbox");
+  checkbox.setAttribute("onclick", "doneTask()")
+
   mine.setAttribute("class", mypriority);
   
-  btn.appendChild(mine);
+  checkbox.appendChild(mine);
   
-  myp.appendChild(btn);
+  myp.appendChild(checkbox);
 }
 
 
