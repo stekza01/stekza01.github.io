@@ -7,3 +7,19 @@
   background-color: #5c738b;
 }
 
+.high{
+  color:red;
+}
+
+.medium{
+  color:yellow;
+}
+
+.low{
+  color:green;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
