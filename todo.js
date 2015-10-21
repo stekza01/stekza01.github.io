@@ -20,6 +20,8 @@ addtodo = function(){
   checkbox.appendChild(mine);
   
   myp.appendChild(checkbox);
+  
+  localSave(myp);
 }
 
 
