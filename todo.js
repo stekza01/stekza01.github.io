@@ -3,7 +3,7 @@ addtodo = function(){
   var myp, mysize, mystr, btn, mine, checkbox;
   myp = document.querySelector("#myul");
   mytext = document.querySelector("#mytext");
-  mypriority = document.querySelector("#priority").value;
+  mypriority = str(document.querySelector("#priority").value);
   mine = document.createTextNode(mytext);
   checkbox = document.createElement("INPUT");
   btn = checkbox = document.createElement("li");
