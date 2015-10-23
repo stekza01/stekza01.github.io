@@ -15,7 +15,7 @@ addtodo = function(){
   checkbox.setAttribute("type", "checkbox");
   checkbox.setAttribute("onclick", "doneTask()");
 
-  checkbox.parentNode.classList.add(priority);
+  checkbox.classList.add(priority);
   
   checkbox.appendChild(mine);
   
