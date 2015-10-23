@@ -6,7 +6,7 @@ addtodo = function(){
   mypriority = document.querySelector("#priority").value;
   mine = document.createTextNode(mytext);
   checkbox = document.createElement("INPUT");
-  btn = checkbox = document.createElement("li")
+  btn = checkbox = document.createElement("li");
   
   myp.setAttribute("style", "list-style: none;");
   
@@ -55,7 +55,7 @@ restoreList = function(savelist,donefunc) {
       taskText = allTasks[i].text;
       priorityValue = allTasks[i].priority;
       newli = document.createElement('li');
-      console.log(priorityValue)
+      console.log(priorityValue);
       for(j = 0; j < priorityValue.length; j++) {
           newli.classList.add(priorityValue[j]);
       }
