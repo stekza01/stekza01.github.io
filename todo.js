@@ -13,7 +13,7 @@ addtodo = function(){
   checkbox.setAttribute("type", "checkbox");
   checkbox.setAttribute("onclick", "doneTask()");
 
-  checkbox.className = mypriority;
+  myli.className = mypriority;
   
   myli.appendChild(checkbox);
   myli.appendChild(mine);
