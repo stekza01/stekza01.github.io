@@ -1,12 +1,12 @@
 
 addtodo = function(){
-  var myp, mysize, mystr, btn, mine, checkbox;
+  var myp, mysize, mystr, myli, mine, checkbox, mypriority;
   myp = document.querySelector("#myul");
   mytext = document.querySelector("#mytext");
-  str mypriority = (document.querySelector("#priority").value);
+  mypriority = (document.querySelector("#priority").value);
   mine = document.createTextNode(mytext);
   checkbox = document.createElement("INPUT");
-  btn = checkbox = document.createElement("li");
+  myli  = document.createElement("li");
   
   myp.setAttribute("style", "list-style: none;");
   
@@ -15,13 +15,15 @@ addtodo = function(){
   checkbox.setAttribute("type", "checkbox");
   checkbox.setAttribute("onclick", "doneTask()");
 
-  checkbox.classList.add(priority);
+  checkbox.className = mypriority;
   
   checkbox.appendChild(mine);
   
-  myp.appendChild(checkbox);
+  myli.appendChild(checkbox);
   
-  localSave(myp);
+  myp.appendChild(myli);
+  
+  localSave("myul");
 }
 
 
