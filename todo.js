@@ -1,3 +1,5 @@
+window.onload = function() {
+    restoreList("myul", doneTask);
 
 addtodo = function(){
   var myp, mysize, mystr, myli, mine, checkbox, mypriority;
