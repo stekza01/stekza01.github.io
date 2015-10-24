@@ -10,8 +10,8 @@ addtodo = function(){
   
   myp.setAttribute("style", "list-style: none;");
   
-  checkbox.setAttribute("type", "checkbox");
-  checkbox.setAttribute("onclick", "doneTask()");
+  checkbox.type = "checkbox"; 
+  checkbox.onclick = doneTask; 
 
   myli.className = mypriority;
   
