@@ -10,16 +10,13 @@ addtodo = function(){
   
   myp.setAttribute("style", "list-style: none;");
   
-  
-  
   checkbox.setAttribute("type", "checkbox");
   checkbox.setAttribute("onclick", "doneTask()");
 
   checkbox.className = mypriority;
   
-  checkbox.appendChild(mine);
-  
   myli.appendChild(checkbox);
+  myli.appendChild(mine);
   
   myp.appendChild(myli);
   
