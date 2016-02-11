@@ -1,3 +1,16 @@
+div.heading{
+  position: absolute;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+div.heading-top{
+  position: absolute;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
 header{
   position: fixed;
   top: 0px;
