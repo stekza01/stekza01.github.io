@@ -72,86 +72,56 @@ footer{
   clear:both;
   }
   
-@import url(http://fonts.googleapis.com/css?family=Nunito:300);
-
-a    { text-decoration: none; }
-sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
-
-.button
+.animate
 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  text-align: center;
-  color: #0C5;
-
-  font-size: 24px;
-  font-family: "Nunito", sans-serif;
-  font-weight: 300;
-  
-  margin: 5em auto;
-  
-  position: absolute; 
-  top:0; right:0; bottom:0; left:0;
-  
-  padding: 20px 0;
-  width: 220px;
-  height:30px;
-
-  background: #0D6;
-  border: 1px solid #0D6;
-  color: #FFF;
-  overflow: hidden;
-  
-  transition: all 0.5s;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
 }
 
-.button:hover, .button:active 
+.action-button
 {
-  text-decoration: none;
-  color: #0C5;
-  border-color: #0C5;
-  background: #FFF;
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
 }
 
-.button span 
+.blue
 {
-  display: inline-block;
-  position: relative;
-  padding-right: 0;
-  
-  transition: padding-right 0.5s;
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
 }
 
-.button span:after 
+.red
 {
-  content: ' ';  
-  position: absolute;
-  top: 0;
-  right: -18px;
-  opacity: 0;
-  width: 10px;
-  height: 10px;
-  margin-top: -10px;
-
-  background: rgba(0, 0, 0, 0);
-  border: 3px solid #FFF;
-  border-top: none;
-  border-right: none;
-
-  transition: opacity 0.5s, top 0.5s, right 0.5s;
-  transform: rotate(-45deg);
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
 }
 
-.button:hover span, .button:active span 
+.green
 {
-  padding-right: 30px;
+	background-color: #82BF56;
+	border-bottom: 5px solid #669644;
+	text-shadow: 0px -2px #669644;
 }
 
-.button:hover span:after, .button:active span:after 
+.yellow
 {
-  transition: opacity 0.5s, top 0.5s, right 0.5s;
-  opacity: 1;
-  border-color: #0C5;
-  right: 0;
-  top: 50%;
+	background-color: #F2CF66;
+	border-bottom: 5px solid #D1B358;
+	text-shadow: 0px -2px #D1B358;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
 }
