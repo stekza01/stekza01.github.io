@@ -82,8 +82,8 @@ footer{
 {
 	position: relative;
 	padding: 10px 40px;
-  margin: 0px 10px 10px 0px;
-  float: left;
+  	margin: 0px 10px 10px 0px;
+  	float: center;
 	border-radius: 10px;
 	font-family: 'Pacifico', cursive;
 	font-size: 25px;
