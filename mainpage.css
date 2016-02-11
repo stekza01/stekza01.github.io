@@ -72,35 +72,86 @@ footer{
   clear:both;
   }
   
-.animate
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+
+a    { text-decoration: none; }
+sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
+
+.button
 {
-	transition: all 0.1s;
-	-webkit-transition: all 0.1s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #0C5;
+
+  font-size: 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  
+  margin: 5em auto;
+  
+  position: absolute; 
+  top:0; right:0; bottom:0; left:0;
+  
+  padding: 20px 0;
+  width: 220px;
+  height:30px;
+
+  background: #0D6;
+  border: 1px solid #0D6;
+  color: #FFF;
+  overflow: hidden;
+  
+  transition: all 0.5s;
 }
 
-.action-button {
-	position: relative;
-	padding: 10px 40px;
-	margin: 0px 10px 10px 0px;
-  	float: left;
-	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
-	font-size: 25px;
-	color: #FFF;
-	text-decoration: none;	
+.button:hover, .button:active 
+{
+  text-decoration: none;
+  color: #0C5;
+  border-color: #0C5;
+  background: #FFF;
 }
 
-
-.red
+.button span 
 {
-	background-color: #E74C3C;
-	border-bottom: 5px solid #BD3E31;
-	text-shadow: 0px -2px #BD3E31;
+  display: inline-block;
+  position: relative;
+  padding-right: 0;
+  
+  transition: padding-right 0.5s;
 }
 
-.action-button:active
+.button span:after 
 {
-	transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
-	border-bottom: 1px solid;
+  content: ' ';  
+  position: absolute;
+  top: 0;
+  right: -18px;
+  opacity: 0;
+  width: 10px;
+  height: 10px;
+  margin-top: -10px;
+
+  background: rgba(0, 0, 0, 0);
+  border: 3px solid #FFF;
+  border-top: none;
+  border-right: none;
+
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform: rotate(-45deg);
+}
+
+.button:hover span, .button:active span 
+{
+  padding-right: 30px;
+}
+
+.button:hover span:after, .button:active span:after 
+{
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  opacity: 1;
+  border-color: #0C5;
+  right: 0;
+  top: 50%;
 }
