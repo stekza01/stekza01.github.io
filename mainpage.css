@@ -25,7 +25,25 @@ div.heading-bottom{
   margin-left: 0px;
   margin-right: 0px;
   top: 150px;
+  width: 100%;
+  text-align: center;
 }
+
+div.middle{
+  margin-left: 0px;
+  margin-right: 0px;
+  top: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    }
 
 
 header{
