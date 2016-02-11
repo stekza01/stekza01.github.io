@@ -2,16 +2,23 @@ body{
   margin: 0px;
 }
 
+div {
+  position:absolute;
+}
+
+
 div.heading{
   position: absolute;
   margin-left: 0px;
   margin-right: 0px;
+  width:100%;
 }
 
 div.heading-top{
   position: absolute;
   margin-left: 0px;
   margin-right: 0px;
+  width: 100%;
 }
 
 
