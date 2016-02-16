@@ -21,6 +21,10 @@ div.heading-top{
   width: 100%;
 }
 
+#text1 {
+	display:inline-block
+}
+
 div.heading-bottom{
   margin-left: 0px;
   margin-right: 0px;
@@ -132,6 +136,7 @@ footer{
 }
 
 .login-button {
+	float: right;
 	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	box-shadow:inset 0px 1px 0px 0px #bee2f9;
