@@ -36,7 +36,7 @@ div.heading-bottom{
 div.middle{
   margin-left: 0px;
   margin-right: 0px;
-  top: 250px;
+  top: 270px;
   width: 100%;
   text-align: center;
 }
@@ -154,6 +154,7 @@ footer{
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #7cacde;
+	top: 5px;
 }
 .login-button:hover {
 	background-color:transparent;
