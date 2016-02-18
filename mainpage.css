@@ -6,6 +6,10 @@ div {
   position:absolute;
 }
 
+head{
+	display:none;
+}
+
 #text2{
 	color: white;
 	
@@ -176,6 +180,6 @@ footer{
 }
 .login-button:active {
 	position:relative;
-	top:1px;
+	top:16px; /* this must be 1px more than .login-button top attribute */
 }
 
