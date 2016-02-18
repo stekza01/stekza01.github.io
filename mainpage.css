@@ -7,12 +7,10 @@ div {
 }
 
 #text2{
-	background-color: #ffcc00;
 	color: white;
 }
 
 #text3{
-	background-color: #ffcc00;
 	color: white;
 }
 
@@ -39,7 +37,9 @@ div.heading-bottom{
   margin-left: 0px;
   margin-right: 0px;
   top: 150px;
-  width: 100%;
+  width: 50%;
+  float: center;
+  background-color: #ffcc00;
   text-align: center;
 }
 
@@ -47,7 +47,9 @@ div.middle{
   margin-left: 0px;
   margin-right: 0px;
   top: 270px;
-  width: 100%;
+  width: 75%;
+  float: center;
+  background-color: #ffcc00;
   text-align: center;
 }
 div.descriptors{
